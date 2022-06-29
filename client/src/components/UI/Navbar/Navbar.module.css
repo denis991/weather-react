@@ -1,0 +1,36 @@
+.nav_div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color:aliceblue;
+  font-size: 1.7ch;
+  background: linear-gradient(90deg,
+  rgba(93, 12, 255, 1) 0%,
+  rgba(155, 0, 250, 1) 100%);;
+}
+
+.home_div {
+  display: flex;
+  justify-content: space-around;
+}
+
+.search_div {
+  display: flex;
+  justify-content: space-around;
+  margin-right: 20px;
+}
+.text {
+  margin-left: 10px;
+  margin-top: 5px;
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+}
+
+.text_h {
+  margin-left: 10px;
+  margin-top: 5px;
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+}

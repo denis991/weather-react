@@ -1,0 +1,24 @@
+._search_div {
+  padding: 20px;
+}
+
+.search_input {
+  background: transparent;
+  color: white;
+  border: 1px solid white;
+  height: 21px;
+}
+
+.search_input::placeholder {
+  color: white;
+}
+
+.search_btn {
+  border: none;
+  color: white;
+  background: linear-gradient(90deg,
+  rgb(197, 64, 221) 0%,
+  rgb(120, 120, 252) 100%);;
+  border-radius: 0px 5px 5px 0px;
+  height: 25px;
+}
