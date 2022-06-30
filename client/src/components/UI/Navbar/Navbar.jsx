@@ -8,7 +8,7 @@ function Navbar() {
   const { user, handleLogout } = useContext(UserContext);
   const navigate = useNavigate();
   const renderLogout = () => (
-    <button className="logout" type="button" onClick={handleLogout}>
+    <button className={styles.logout_btn} type="button" onClick={handleLogout}>
       Logout
     </button>
   );

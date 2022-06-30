@@ -34,3 +34,12 @@
   font-size: 18px;
   color: white;
 }
+.logout_btn {
+  margin: 5px;
+  border:none;
+  background: linear-gradient(90deg,
+  rgba(93, 12, 255, 1) 0%,
+  rgba(155, 0, 250, 1) 100%);;
+  border-radius: 5px;
+  height: 25px;
+}

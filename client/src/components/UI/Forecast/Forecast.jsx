@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState,memo } from 'react';
 import AmountOfDays from '../AmountOfDays/AmountOfDays';
 import InputSiti from '../inputSiti/InputSiti';
 // import './Forecast.module.css';
@@ -78,4 +78,4 @@ function Forecast() {
     </>
   );
 }
-export default Forecast;
+export default memo(Forecast);
